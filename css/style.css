@@ -27,6 +27,18 @@ header {
 	color: #fff;
 }
 
+@media (max-width:1199px) {
+	header {
+		padding: 15px 30px;
+	}
+	.header__bolt {
+		text-align: left;
+	}
+	.header__contact {
+		text-align: right;
+	}
+}
+
 .theme {
 	padding: 250px 0;
 	text-align: center;
@@ -62,6 +74,16 @@ article {
 	text-align: center;
 	float: left;
 	width: 55%;
+}
+
+@media (max-width:1199px) {
+	.phone,.article__box  {
+		float: none;
+		width: auto;
+	}
+	article {
+		padding-bottom: 25px;
+	}
 }
 
 .article__box__title {
@@ -109,6 +131,12 @@ figure {
 	opacity: 1;
 }
 
+@media (max-width:1199px) {
+	.figure__box__imgs1 > li,
+	.figure__box__imgs2 > li {
+		float: none;
+	}
+}
 
 .figure__bottom {
 	text-align: center;
@@ -128,6 +156,16 @@ figure {
 	background-color: #74cfae;
 	display: inline-block;
 	color: #fff;
+}
+
+@media (max-width:1199px) {
+	.Email-me {
+		margin: 0 auto;
+	}
+	.figure__bottom__txt {
+		width: auto;
+		margin: 0 40px 40px 40px;
+	}
 }
 
 .our-skills {
@@ -159,6 +197,16 @@ figure {
 	color: #fff;
 	font-size: 16px;
 	text-align: center;
+}
+
+@media (max-width:1199px) {
+	.our-skills__box__graphs > li {
+		float: none;
+		margin-bottom: 88px;
+	}
+	.our-skills__box__graphs > li:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .sns {
