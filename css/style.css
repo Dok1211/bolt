@@ -88,13 +88,11 @@ figure {
 }
 
 .figure__box__imgs1 {
-	text-align: center;
 	margin: 40px auto 80px auto ;
 	display: table;
 }
 
 .figure__box__imgs2 {
-	text-align: center;
 	margin: 0 auto 90px;
 	display: table;
 }
@@ -113,15 +111,14 @@ figure {
 
 
 .figure__bottom {
-	margin: 0 auto;
-	display: table;
 	text-align: center;
 }
 
 .figure__bottom__txt {
-	float: left;
-	width: 37%;
+	width: 32%;
 	font-family: 'Lato';
+	text-align: center;
+	display: inline-block;
 }
 
 .Email-me {
@@ -131,7 +128,6 @@ figure {
 	background-color: #74cfae;
 	display: inline-block;
 	color: #fff;
-	float: left;
 }
 
 .our-skills {
